@@ -1,0 +1,78 @@
+@font-face {
+  font-family: Kalnia Glaze;
+  src: url(fonts/KalniaGlaze-Bold.ttf);
+}
+
+#header {
+  position: fixed;
+  width: 100vw;
+}
+
+body {
+  background-image: url(pictures/Hagia_Sophia_Mars_2013.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-style: italic;
+}
+
+#main_paragraph {
+  background-color: yellow;
+}
+
+.h3_elements {
+  background-color: aqua;
+  font-family: "Kalnia Glaze";
+}
+
+#bmidc_logo {
+  float: left;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+#mypicture {
+  float: right;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.box {
+  background-color: white;
+  width: 48%;
+  min-height: 30%;
+  float: left;
+  text-align: center;
+  border: 5px solid black;
+}
+
+#google_link_div {
+  width: 100vw;
+  text-align: center;
+}
+
+#google_link {
+  font-size: 20px;
+  align-items: center;
+  width: 100vw;
+}
+
+#google_link:hover {
+  font-size: 25px;
+}
+
+#google_link:active {
+  color: aquamarine;
+}
+
+li:hover {
+  background-color: blue;
+  color: brown;
+}
+
+li:not(:hover) {
+  background-color: aquamarine;
+}
