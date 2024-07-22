@@ -1,0 +1,30 @@
+.container {
+  border: 5px black solid;
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  font-size: 7em;
+  text-align: center;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#box1 {
+  background: rgb(255, 158, 158);
+}
+#box2 {
+  background: rgb(244, 255, 158);
+}
+#box3 {
+  background: rgb(158, 255, 184);
+}
+#box4 {
+  background: rgb(177, 158, 255);
+}
