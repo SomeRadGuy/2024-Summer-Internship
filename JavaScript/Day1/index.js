@@ -1,4 +1,5 @@
 console.log("Hello World");
+console.log("Trying Git")
 
 document.getElementById("heading_h1").textContent = "Hello World";
 document.getElementById("heading_p").textContent = "Hope you enjoy your visit";
