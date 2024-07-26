@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+    background-color: rgb(255, 218, 218);
+    padding: 10px;
+}
+#sub_container {
+    text-align: center;
+    justify-content: center;
+}
+#input {
+    height: 25px;
+    width: 100px;
+    font-size: 1.1em;
+    text-align: center;
+}
+#button {
+    height: 25px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 122, 122);
+    padding: 15px;
+
+}

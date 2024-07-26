@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(233, 255, 248);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#base_div {
+    padding-top: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+#main_div {
+    height: 50vh;
+    width: 25%;
+    background-color: rgb(255, 205, 205);
+    box-shadow: 2px 2px 7px black;
+    text-align: center;
+}
+#input {
+    height: 2em;
+}
+#sub_main_div {
+    margin: 10px;
+    padding: 5px;
+    text-align: left;
+}
+.labels {
+    font-size: 1.1em;
+}
+#sub_sub_main_div {
+    padding: 15px;
+    margin: 15px;
+    margin-top: 15px;
+}
+#submit_button {
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.1em;
+    background-color: rgb(125, 203, 255);
+}
+#output {
+    font-size: 1.5em;
+}
