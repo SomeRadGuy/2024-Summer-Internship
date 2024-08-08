@@ -1,0 +1,17 @@
+{
+  "name": "2024-summer-internship",
+  "version": "1.0.0",
+  "description": "A repository to track my progress for my 2024 summer internship. I plan to learn React and Next, along with Node and Express. Will take everything up from the roots, starting with basic html, css and javascript.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
