@@ -6,3 +6,5 @@ customEmitter.on('response',(name, age)=>{
 })
 
 customEmitter.emit('response', 'sanaullah', 18)
+
+console.log("Hello World!!!")

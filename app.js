@@ -6,3 +6,7 @@ customEmitter.on('response',(name, age)=>{
 })
 
 customEmitter.emit('response', 'sanaullah', 18)
+
+for(let i = 0; i < 15; i++){
+    console.log(i)
+}
